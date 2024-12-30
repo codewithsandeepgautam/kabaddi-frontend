@@ -1,0 +1,74 @@
+ body {
+     font-size: 16px;
+     background: #fbfdfe;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-weight: 700;
+     margin-bottom: 15px;
+ }
+
+ h1 {
+     font-size: 32px;
+     color: #b91c1c;
+     font-weight: 400;
+ }
+
+ h2 {
+     font-size: 32px;
+ }
+
+ h3 {
+     font-size: 28px;
+ }
+
+ h4 {
+     font-size: 28px;
+ }
+
+ h5 {
+     font-size: 24px;
+ }
+
+ h6 {
+     font-size: 20px;
+ }
+
+ label {
+    margin-bottom: 4px;
+    display: inline-block;
+ }
+
+ input, textarea {
+    width: 100%;
+    border: 1px solid #333; 
+    border-radius: 3px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    outline: none;
+ }
+
+ .loginbg{
+    background-image: url(https://wallpapers.com/images/featured/city-background-vk49vrjolueijq7a.jpg);
+    background-size: cover;
+ }
+ tbody#listmatches, th, td, textarea, input {
+    border: 1px solid #0000005c !important;
+}
+
+/* marquee css   */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+  
+    100% {
+        transform: translateX(-100%);
+    }
+  }
